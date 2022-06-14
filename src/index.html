@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"ADSbase_test"
+})
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         @@include('html/header.html',{})
+
+         <main>
+            @@include('html/widget-menu.html',{})
+            @@include('html/widget-event.html',{})
+            @@include('html/widget-profile.html',{})
+            @@include('html/widget-statistic.html',{})
+            @@include('html/widget-subscribe.html',{})
+            @@include('html/widget-calendar.html',{})
+            @@include('html/widget-social.html',{})
+         </main>
+
+         @@include('html/footer.html',{})
+      </div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   <!-- календарь -->
+
+   <script src="js/app.min.js"></script>
+</body>
+
+</html>

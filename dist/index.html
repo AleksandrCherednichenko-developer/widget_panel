@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ADSbase_test</title>
+
+   <!-- подключение шрифтов -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <!-- подключение календаря -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+   <!-- подключение файлов обновления -->
+   <link rel="stylesheet" href="css/reset.css">
+
+   <!--  подключение стилей -->
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <header>
+   <div class="header__inner">
+      <div class="nav__menu-btn">
+         <span></span>
+      </div>
+      <nav class="nav">
+         <a href="#">
+            <img src="img/settings.svg" alt="icon">
+            <p>Settings</p>
+         </a>
+         <a href="#">
+            <img src="img/user.svg" alt="icon">
+            <p>Account</p>
+         </a>
+         <a href="#">
+            <img src="img/mail.svg" alt="icon">
+            <p>Messages</p>
+            <span class="count">5</span>
+         </a>
+         <a href="#">
+            <img src="img/favorites.svg" alt="icon">
+            <p>Favorites</p>
+         </a>
+      </nav>
+      <div class="personal__area">
+         <div class="personal__area-select">
+            <div class="header">
+               <p class="item">user 1</p>
+               <img src="img/select-arrow.svg" alt="arrow">
+            </div>
+            <div class="list">
+               <div class="select__inner">
+                  <p class="item">user 1</p>
+                  <p class="item">user 2</p>
+                  <p class="item">user 3</p>
+                  <p class="item">user 4</p>
+               </div>
+            </div>
+         </div>
+         <a class="personal__area-image" href="#">
+            <img src="img/AnneHathaway.jpeg" alt="user-image">
+         </a>
+      </div>
+   </div>
+</header>
+
+         <main>
+            <div class="menu">
+   <h5>Menu Box</h5>
+   <a href="#">
+      <img src="img/message.svg" alt="icon">
+      <p>Messages</p>
+      <span class="count">24</span>
+   </a>
+   <a href="#">
+      <img src="img/send.svg" alt="icon">
+      <p>Invites</p>
+      <span class="count">3</span>
+   </a>
+   <a href="#">
+      <img src="img/calendar.svg" alt="icon">
+      <p>Events</p>
+      <span class="count">5</span>
+   </a>
+   <a href="#">
+      <img src="img/settings.svg" alt="icon">
+      <p>Account Settings</p>
+   </a>
+   <a href="#">
+      <img src="img/statistic.svg" alt="icon">
+      <p>Statistics</p>
+   </a>
+</div>
+            <div class="event">
+   <div class="event__title">
+      <button class="prew-day"></button>
+      <p class="day-of-the-week">wensday</p>
+      <button class="next-day"></button>
+   </div>
+   <div class="event__info">
+      <p class="day-of-the-month">26</p>
+      <button class="add">Add Event</button>
+   </div>
+</div>
+            <div class="profile">
+   <div class="profile__info">
+      <img src="img/AnneHathaway.jpeg" alt="image">
+      <p class="name">Anne Hathaway</p>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <button class="add">
+
+      </button>
+   </div>
+   <div class="profile__btn">
+      <a href="#">
+         <img src="img/message.svg" alt="icon">
+         <span class="count">23</span>
+      </a>
+      <a href="#">
+         <img src="img/views.svg" alt="icon">
+         <span class="count">841</span>
+      </a>
+      <a href="#">
+         <img src="img/likes.svg" alt="icon">
+         <span class="count">49</span>
+      </a>
+   </div>
+</div>
+            <div class="statistic">
+   <h5>OS audience stats</h5>
+   <div class="circle">
+      <div class="date__info">
+         <p class="month"></p>
+         <p class="year"></p>
+      </div>
+   </div>
+   <div class="statistic__info">
+      <div class="item">
+         <p class="name">iOS</p>
+         <p class="value">19</p>
+      </div>
+      <div class="item">
+         <p class="name">Mac</p>
+         <p class="value">44</p>
+      </div>
+      <div class="item">
+         <p class="name">Linux</p>
+         <p class="value">7</p>
+      </div>
+      <div class="item">
+         <p class="name">Win</p>
+         <p class="value">30</p>
+      </div>
+   </div>
+</div>
+            <div class="subscribe">
+   <h5>join the newsletter</h5>
+   <div class="subscribe__input">
+      <input type="text" placeholder="e-mail">
+   </div>
+   <button>subscribe</button>
+</div>
+            <div class="calendar">
+   <div class="flatpickr-calendar"></div>
+</div>
+            <div class="social">
+   <a href="#">
+      <div class="icon">
+         <img src="img/facebook.svg" alt="facebook">
+      </div>
+      <div class="text"> Share to facebook</div>
+   </a>
+   <a href="#">
+      <div class="icon">
+         <img src="img/twitter.svg" alt="twitter">
+      </div>
+      <div class="text">Share to twitter</div>
+   </a>
+   <a href="#">
+      <div class="icon">
+         <img src="img/google.svg" alt="google">
+      </div>
+      <div class="text">Share to Google+</div>
+   </a>
+</div>
+         </main>
+
+         <footer></footer>
+      </div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   <!-- календарь -->
+
+   <script src="js/app.min.js"></script>
+</body>
+
+</html>
